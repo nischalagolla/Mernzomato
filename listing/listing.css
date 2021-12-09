@@ -64,24 +64,24 @@ select{
     margin-left: 5%;
 }
 .Fooditem1{
-    height:230px;
+    height:235px;
     width:90%;
     margin-left: 2%;
-    box-shadow:5px 10px 10px gray;
+    box-shadow:5px 10px 10px 5px rgb(194, 109, 109);
 }
 .Fooditem2{
     margin-top: 2%;
-    height:230px;
+    height:235px;
     width:90%;
     margin-left: 2%;
-    box-shadow:5px 10px 10px gray;
+    box-shadow:5px 10px 10px rgb(194, 109, 109);
 }
 .Fooditem3{
     margin-top: 2%;
-    height:230px;
+    height:235px;
     width:90%;
     margin-left: 2%;
-    box-shadow:5px 10px 10px gray;
+    box-shadow:5px 10px 10px rgb(194, 109, 109);
 }
 
 .imageSection{
@@ -115,14 +115,14 @@ float:left;
 }
 
 .CostPerTwo{
-    margin-top: 1%;
-    width:100%;
+    width:90%;
     display: inline-block;
     font-weight: bold;
     line-height: 0px;
     margin-left: 5%;
 }
-footer{
+.footer{
     width:100%;
     color:darkred;
+    display:inline-block;
 }
