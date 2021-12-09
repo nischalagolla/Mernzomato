@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    background-color: cornsilk;
+}
+
+#header{
+    height:60px;
+    background-color: rgb(161, 128, 114);
+}
+.slogo{
+height:50px;
+width:50px;
+}
+
+#icon{
+margin-left:1%;
+margin-top:-1%;
+position:absolute;
+color: #6d1010;
+
+}
+a{
+    text-decoration: none;
+}
+
+#social{
+    float: right;
+    margin-right: 1%;
+}
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold ;
+    color: darkred;
+}
+
+#listingContainer{
+    width:80%;
+    height: 800px;
+    margin-left: 10%;
+}
+.filter{
+    width:20%;
+    height:600px;
+    box-shadow: 10px 5px 10px 10px rgb(218, 75, 104);
+    float: left;
+}
+.filter > h1{
+    text-align: center;
+    color: darkred;
+}
+.filter > h4{
+    margin-left: 3%;
+}
+select{
+    height:30px;
+    width:90%;
+    margin-left: 2%;
+}
+.content{
+    width:74%;
+    height:750px;
+    float: left;
+    margin-left: 5%;
+}
+.Fooditem1{
+    height:230px;
+    width:90%;
+    margin-left: 2%;
+    box-shadow:5px 10px 10px gray;
+}
+.Fooditem2{
+    margin-top: 2%;
+    height:230px;
+    width:90%;
+    margin-left: 2%;
+    box-shadow:5px 10px 10px gray;
+}
+.Fooditem3{
+    margin-top: 2%;
+    height:230px;
+    width:90%;
+    margin-left: 2%;
+    box-shadow:5px 10px 10px gray;
+}
+
+.imageSection{
+margin-left: 2%;
+height:180px;
+width:30%;
+float:left;
+}
+.imageSection > img{
+    border-radius: 20%;
+}
+.Itemdetails{
+    width:60%;
+    float:left;
+}
+.Itemdetails > h2{
+    color:darkred;
+    margin-left: 10%;
+    line-height: 2%;
+}
+.Itemdetails > h3{
+    color:rgb(129, 114, 196);
+    line-height: 2%;
+    margin-left: 10%;
+}
+.Itemdetails > p{
+    color:rgb(97, 93, 93);
+    line-height: 2%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.CostPerTwo{
+    margin-top: 1%;
+    width:100%;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 0px;
+    margin-left: 5%;
+}
+footer{
+    width:100%;
+    color:darkred;
+}
