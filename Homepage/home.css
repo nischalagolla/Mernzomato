@@ -68,9 +68,15 @@ a{
 select{
     height:60px;
     width:35%;
+    color: gray;
+    font-size: 20px;
+    text-align:center;
 }
 .restaurant-select{
     width:50%;
+    color: gray;
+    font-size: 20px;
+    text-align:center;
 }
 #QuickSearch{
     height:510px;
@@ -127,4 +133,9 @@ height:180px;
 .componentSubHeading{
     color:gray;
     font-size: 20px;
+}
+.footer{
+    width:100%;
+    color:darkred;
+    display:inline-block;
 }
