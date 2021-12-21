@@ -139,3 +139,73 @@ height:180px;
     color:darkred;
     display:inline-block;
 }
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(129, 174, 175);
+    }
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(196, 162, 240);
+    }
+    .restaurant-select{
+        width:53%;
+    }
+    #heading{
+        margin-left: 30%;
+        margin-top: 9%;
+    }
+    .dropdown{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(167, 165, 170);
+    }
+    .restaurant-select{
+        width:62%;
+    }
+    #heading{
+        margin-left: 22%;
+        margin-top: 11%;
+    }
+    .dropdown{
+        margin-top: 17%;
+        margin-left:25%;
+    }
+    #logo{
+        margin-left:42%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(206, 211, 137);
+    }
+    #heading{
+        margin-left: 20%;
+        margin-top: 12%;
+    }
+    .dropdown{
+        margin-top: 19%;
+        margin-left:25%;
+    }
+    .restaurant-select{
+        width:64%;
+    }
+    #logo{
+        margin-left:45%;
+    }
+    
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(62, 42, 177);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(121, 211, 151);
+    }
+}

@@ -76,6 +76,23 @@ a{
     float: left;
     margin-left:5%
 }
+h2{
+    font-size: 35px;
+    color:green;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.btn{
+    height:50px;
+    width:150px;
+    background-color: rgb(34, 90, 16);
+    color:white;
+    font-size: 20px;
+}
+.btn-proceed{
+    background-color: rgb(133, 128, 136);
+    margin-left: 2%;
+}
 
 .footer{
     width:100%;
