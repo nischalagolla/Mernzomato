@@ -30,7 +30,7 @@ a{
 #search{
     height:390px;
     /*border: 2px solid rgb(128, 77, 0);*/
-    background-image: url('../images/images/foodWallpaper.png');
+    background-image: url('../Homepage/image/wallpaper.jpg');
     background-repeat: no-repeat;
     background-size:100% 400px;
 }
@@ -48,7 +48,15 @@ a{
     color: crimson;
     position: absolute;
 }
-#logo span{
+@keyframes movelogo {
+    0% {margin-left:45%;}
+    20% {margin-left:40%;}
+    40% {margin-left:45%;}
+    60% {margin-left:40%;}
+    80% {margin-left:45%;}
+    100% {margin-left:40%;}
+}
+#logo > span{
     margin-left: 20px;
 }
 #heading{
@@ -110,6 +118,10 @@ margin-left:2%;
     margin-top:1%;
     margin-left:2%;
 }
+.tileContainer:hover{
+    transform: scale(1.1);
+}
+
 .tileComponent1{
 float:left;
 width:50%;
