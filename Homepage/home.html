@@ -1,8 +1,16 @@
 <html>
 
 <head>
-    
+    <script src="home.js"></script>
     <link href="home.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script>
+        function changeMode(){
+            var mybody = document.body;
+            // if body have class mydark than remove else add
+            mybody.classList.toggle("mydark")
+        }
+    </script>
 </head>
 
 <body>
@@ -20,6 +28,7 @@
             <a href="https//www.youtube.com" target="_blank">
                 <img src="image/youtube1.png" alt="youtube" class="slogo">
             </a>
+            <button onclick="changeMode()" style="height: 30px;"><i class="far fa-lightbulb"></i></button>
         </div>
     </header>
     <!--search start-->
@@ -31,12 +40,11 @@
             Find The Best Restaurants Near You!!
         </div>
         <div class="dropdown">
-            <select>
-                <option>Select location</option>
-                <option>Hyderabad</option>
+            <select id="city" onChange="getHotel()">
+                <option>----SELECT CITY----</option>
             </select>
-            <select class="restaurant-select">
-                <option>Select restaurant,Cuisine or dish</option>
+            <select class="restaurantSelect" id="hotels">
+                <option>----SELECT RESTAURANTS----</option>
             </select>
         </div>
     </div>
@@ -137,6 +145,10 @@
             </center>
         </footer>
     </div>
+    <script>
+         window.onload=getCity()
+        // window.onload=getHotel()
+    </script>
 </body>
 
 </html>

@@ -2,6 +2,14 @@ body{
     margin:0px;
     background-color: cornsilk;
 }
+body{
+    background-color:white;
+    color:black
+}
+.mydark{
+    background-color:black;
+    color:white
+}
 
 #header{
     height:60px;
