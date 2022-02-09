@@ -38,7 +38,7 @@ a{
 #search{
     height:390px;
     /*border: 2px solid rgb(128, 77, 0);*/
-    background-image: url('../Homepage/image/wallpaper.jpg');
+    background-image: url('image/wallpaper.jpg');
     background-repeat: no-repeat;
     background-size:100% 400px;
 }
@@ -162,13 +162,11 @@ height:180px;
 
 @media screen and (max-width:1600px){
     body{
-        background-color: rgb(129, 174, 175);
+        background-color:rgb(250, 250, 249);
+        color:black
     }
 }
 @media screen and (max-width:1400px){
-    body{
-        background-color: rgb(196, 162, 240);
-    }
     .restaurant-select{
         width:53%;
     }
@@ -181,9 +179,6 @@ height:180px;
     }
 }
 @media screen and (max-width:1200px){
-    body{
-        background-color: rgb(167, 165, 170);
-    }
     .restaurant-select{
         width:62%;
     }
@@ -200,9 +195,6 @@ height:180px;
     }
 }
 @media screen and (max-width:1000px){
-    body{
-        background-color: rgb(206, 211, 137);
-    }
     #heading{
         margin-left: 20%;
         margin-top: 12%;
